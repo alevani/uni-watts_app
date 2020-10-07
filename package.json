@@ -1,0 +1,20 @@
+{
+  "name": "uni-watts_app",
+  "version": "1.0.0",
+  "description": "WATTS social investment platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alevani/uni-watts_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alevani/uni-watts_app/issues"
+  },
+  "homepage": "https://github.com/alevani/uni-watts_app#readme"
+}
