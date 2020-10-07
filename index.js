@@ -1,7 +1,7 @@
 "use strict"
 
 const express = require('express');
-let dbConnector = require('./database/Connector');
+const dbConnector = require('./database/Connector');
 const app = express();
 const port = 8080;
 
@@ -13,7 +13,21 @@ const url = 'mongodb://localhost:27017';
 const dbName = 'myproject';
 
 const conn = new dbConnector(url, dbName);
-conn.connect();
+
+// Example callback wrapper
+const addUser = (x) => {
+    return function (err, client) {
+        console.log(x);
+        const db = client.db('watts');
+        /*
+        do something
+        */
+        client.close();
+    }
+}
+
+
+conn.execute(addUser('jerome'));
 
 // const connector = new dbConnector(url, dbName);
 
