@@ -28,10 +28,7 @@ const addUser = (x) => {
 
 
 conn.execute(addUser('jerome'));
-
-// const connector = new dbConnector(url, dbName);
-
-// connector.connect();
+conn.addUser('jerome');
 
 app.get('/', (req, res) => {
     res.json('Hello world');
