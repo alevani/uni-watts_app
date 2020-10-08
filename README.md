@@ -32,5 +32,6 @@ DB_NAME=database_name
 ```
 ### 4. Fire up the database
 ```
+cd ./mongo/
 docker-compose up -d
 ```
