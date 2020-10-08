@@ -1,5 +1,5 @@
 # uni-watts_app
-WATTS social investment platform
+WATTS social investment platform. This repository is meant to contain a very simple NodeJS backend implementation for an app mockup.
 
 ## TODO
 - Create license
@@ -30,7 +30,7 @@ DB_USER=username
 DB_PASS=password
 DB_NAME=database_name
 ```
-### Fire up the database
+### 4. Fire up the database
 ```
 docker-compose up -d
 ```
