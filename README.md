@@ -2,16 +2,17 @@
 WATTS social investment platform
 
 ## TODO
-Create license
+- Create license
 ```
 npx license mit > LICENSE
 ```
+- fill seed.js to prepopulate the database.
 
 # RUN ME
 ## Prerequisites
-<p>NodeJS</p>
-<p>Node Packet Manager (NPM)</p>
-<p>docker and docker-compose</p>
+- <p>NodeJS</p>
+- <p>Node Packet Manager (NPM)</p>
+- <p>docker and docker-compose</p>
 
 ### 1. Clone the repository 
 ```
@@ -33,4 +34,3 @@ DB_NAME=database_name
 ```
 docker-compose up -d
 ```
-> TODO: fill seed.js to prepopulate the database.
